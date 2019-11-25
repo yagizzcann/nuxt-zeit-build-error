@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "nuxt-hn",
+  "description": "Nuxt Hacker News",
+  "version": "1.0.0",
+  "author": "Evan You <yyx990803@gmail.com>",
+  "contributors": [
+    {
+      "name": "Sebastien Chopin (@Atinux)"
+    },
+    {
+      "name": "Alexandre Chopin (@alexchopin)"
+    },
+    {
+      "name": "Pooya Parsa (@pi0)"
+    }
+  ],
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "dev-spa": "nuxt dev --spa",
+    "build-spa": "nuxt build --spa",
+    "start-spa": "nuxt start --spa",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.8.0",
+    "@nuxtjs/google-gtag": "^1.0.4",
+    "nuxt": "^2.10.2",
+    "nuxt-webfontloader": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.1.2",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
+}
