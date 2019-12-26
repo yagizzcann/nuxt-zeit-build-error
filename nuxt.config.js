@@ -1,9 +1,9 @@
-
 import settings from './settings'
 
-module.exports = {
- // srcDir: __dirname,
- // buildDir: '_nuxt/app',
+export default {
+  mode: 'universal',
+  // srcDir: __dirname,
+  // buildDir: '_nuxt/app',
   //lambdaName: 'index',
   env: {
     baseUrl: process.env.BASE_URL || `${settings.baseAPIUrl}`,

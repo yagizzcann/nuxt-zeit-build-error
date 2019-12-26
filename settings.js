@@ -1,4 +1,4 @@
-const setting = {
+export default {
   title: 'Example',
 
   /**
@@ -9,7 +9,7 @@ const setting = {
 
 
    /**
-   * @type {string} 
+   * @type {string}
    * @description api base URI
    */
   baseAPIUrl: 'https://example.com/',
@@ -20,11 +20,4 @@ const setting = {
    * If you want to also use it in dev, you can pass ['production', 'development']
    */
   errorLog: ['production', 'development']
-
-
-
-
 }
-
-
-export default setting;
